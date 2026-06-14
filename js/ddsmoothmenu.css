@@ -1,0 +1,96 @@
+.menu{
+font: bold 12px Verdana;
+width: 100%;
+z-index:200;
+}
+
+.menu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.menu ul li{
+position: relative;
+display: inline;
+float: left;
+margin:0px;
+padding:0ox;
+z-index:210;
+}
+
+/*Top level menu link items style*/
+.menu ul li a{
+display: block;
+text-decoration: none;
+}
+
+* html .menu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.menu ul li a:link, .ddsmoothmenu ul li a:visited{
+
+}
+
+.menu ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background: black; 
+}
+
+.menu ul li a:hover{
+background: black; /*background of menu items during onmouseover (hover state)*/
+}
+	
+/*1st sub level menu*/
+.menu ul li ul{
+position: absolute;
+margin:0px;
+padding:0ox;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.menu ul li ul li{
+display: list-item;
+margin:0px;
+padding:0ox;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.menu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.menu ul li ul li a{
+font: normal 13px Verdana;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid gray;
+}
+
+/* Holly Hack for IE \*/
+* html .menu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}
