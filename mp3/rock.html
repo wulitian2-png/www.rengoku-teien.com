@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=8" http-equiv="X-UA-Compatible"/>
+<meta content="音楽素材,無料,ロック,メタル" name="keywords"/>
+<meta content="ロック・メタルのMP3無料素材も扱っている煉獄庭園で簡単ダウンロード。ヘビーでゴリゴリとしたものもあり、メロディアスで聴き入ってしまうものもあります。全楽曲がフリーですので、利用規約を確認して御使用下さい。" name="description"/>
+<title>[ロック]MP3素材 - 無料音楽素材 煉獄庭園</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2" type="text/javascript"></script>
+<link href="../js/ddsmoothmenu.css" rel="stylesheet" type="text/css"/>
+<script src="../js/ddsmoothmenu.js" type="text/javascript"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+    mainmenuid: "dropmenu", //menu DIV id
+    orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+    classname: 'menu', //class added to menu's outer DIV
+    contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+<script type="text/javascript">
+$(function() {
+	var images = $("img");
+	for(var i=0; i < images.size(); i++) {
+		if(images.eq(i).attr("src").match("_off.")) {
+			$("img").eq(i).hover(function() {
+				$(this).attr('src', $(this).attr("src").replace("_off.", "_on."));
+			}, function() {
+				$(this).attr('src', $(this).attr("src").replace("_on.", "_off."));
+			});
+		}
+	}
+});
+</script>
+<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../js/jquery.tinyscrollbar.min.js" type="text/javascript"></script>
+<!-- inline demo CSS (combined + minified for performance; see comments for raw source URLs) -->
+<link href="./demo/360-player/360player.css" rel="stylesheet" type="text/css"/>
+<link href="./demo/flashblock/flashblock.css" rel="stylesheet" type="text/css"/>
+<!-- the SoundManager 2 API -->
+<script src="./script/soundmanager2.js" type="text/javascript"></script>
+<!-- 360 UI demo, canvas magic for IE -->
+<!--[if lt IE 9]><script type="text/javascript" src="demo/360-player/script/excanvas.js"></script><![endif]-->
+<!-- SM2 demo/homepage-specific stuff -->
+<script type="text/javascript">var is_home = true;</script>
+<!-- inline demo JS (combined + minified; see comments for raw source URLs) -->
+<script src="./demo/index-rollup.js" type="text/javascript"></script>
+<!-- IE CSS font hax -->
+<!--[if lte IE 8]>
+
+<style>
+
+ h2.special {
+
+  /* IE 6-8 font reset, doesn't like sort-of-defined @font-family */font-family:"helvetica neue",helvetica,arial,verdana,tahoma,"sans serif";
+
+ }
+
+</style>
+
+<![endif]-->
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header">
+<div class="logo"><h1><a href="../index.html"><img alt="無料音楽素材煉獄庭園" height="89" src="../images/logo.png" width="226"/></a></h1></div>
+<div class="right">
+<div class="sns">
+<img alt="twitter" height="23" src="../images/twitter.png" width="62"/>
+<img alt="facebook" height="23" src="../images/facebook.jpg" width="60"/></div>
+<div class="head_text">
+ゲーム、ＨＰ、動画、ラジオ、舞台、店舗等様々な用途に<br/>
+御利用頂ける無料音楽素材サイト。製作依頼も随時募集。</div>
+<div class="search">
+<form action="http://www.google.com/search" method="get">
+<input name="hl" type="hidden" value="ja"/>
+<input name="as_sitesearch" type="hidden" value="サイトのURL"/>
+<input class="text" name="q" size="16" type="text" value=""/>
+<input class="button" type="submit" value="Googleでサイト内検索"/>
+</form>
+</div>
+</div>
+</div>
+<div id="blackover"></div>
+<div id="main">
+<div class="menu" id="dropmenu">
+<ul class="dropdown"><li><a href="#"><img alt="about" height="35" src="../images/icon_about_off.jpg" width="130"/></a><ul class="sub_menu">
+<li><a href="../about/index.html"><img alt="メンバー紹介" height="35" src="../images/m_a1_off.jpg" width="131"/></a></li><li><a href="../kanyu/index.html"><img alt="加入ふぉーむ" height="35" src="../images/m_a2_off.jpg" width="131"/></a></li><li><a href="../link/index.html"><img alt="リンク" height="35" src="../images/m_a3_off.jpg" width="131"/></a></li></ul></li>
+<li><a href="#"><img alt="musicmaterial" height="35" src="../images/icon_music_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li><a href="../rule/index.html"><img alt="利用規約" height="35" src="../images/m_m1_off.jpg" width="130"/></a></li>
+<li>
+<a href="#"><img alt="MP3素材" height="35" src="../images/m_m2_off.jpg" width="130"/></a>
+<ul>
+<li><a href="./pop.html"><img alt="ポップス" height="35" src="../images/m_mp1_off.jpg" width="130"/></a></li>
+<li><a href="./rock.html"><img alt="ロック・メタル" height="35" src="../images/m_mp2_off.jpg" width="130"/></a></li>
+<li><a href="./wafu.html"><img alt="和風" height="35" src="../images/m_mp3_off.jpg" width="130"/></a></li>
+<li><a href="./punk.html"><img alt="パンク・スカ" height="35" src="../images/m_mp4_off.jpg" width="130"/></a></li>
+<li><a href="./dark.html"><img alt="ダーク・ミステリー" height="35" src="../images/m_mp5_off.jpg" width="130"/></a></li>
+<li><a href="./gag.html"><img alt="ギャグ・メルヘンt" height="35" src="../images/m_mp6_off.jpg" width="130"/></a></li>
+<li><a href="./cyber.html"><img alt="サイバー" height="35" src="../images/m_mp7_off.jpg" width="130"/></a></li>
+<li><a href="./orchestra.html"><img alt="ポップオーケストラ" height="35" src="../images/m_mp8_off.jpg" width="130"/></a></li>
+<li><a href="./healing.html"><img alt="ヒーリング" height="35" src="../images/m_mp9_off.jpg" width="130"/></a></li>
+<li><a href="./minzoku.html"><img alt="民族調" height="35" src="../images/m_mp10_off.jpg" width="130"/></a></li>
+<li><a href="./other.html"><img alt="その他" height="35" src="../images/m_mp11_off.jpg" width="130"/></a></li>
+<li><a href="./cover.html"><img alt="カヴァー" height="35" src="../images/m_mp12_off.jpg" width="130"/></a></li>
+<li><a href="./vocal.html"><img alt="歌モノ" height="35" src="../images/m_mp13_off.jpg" width="130"/></a></li>
+<li><a href="./vocaloid.html"><img alt="ボカロ" height="35" src="../images/m_mp14_off.jpg" width="130"/></a></li>
+<li><a href="./loop.html"><img alt="ループ・ジングル" height="35" src="../images/m_mp15_off.jpg" width="130"/></a></li>
+</ul>
+</li>
+<li>
+<a href="#"><img alt="MIDI音源" height="35" src="../images/m_m3_off.jpg" width="130"/></a>
+<ul>
+<li><a href="../midi/pop.html"><img alt="ポップスMIDI" height="35" src="../images/m_md1_off.jpg" width="130"/></a></li>
+<li><a href="../midi/another.html"><img alt="アナザーポップ" height="35" src="../images/m_md2_off.jpg" width="130"/></a></li>
+<li><a href="../midi/wafu.html"><img alt="ヘヴィー和風・デス和風" height="35" src="../images/m_md3_off.jpg" width="130"/></a></li>
+<li><a href="../midi/rock.html"><img alt="ロック・ハードロック" height="35" src="../images/m_md4_off.jpg" width="130"/></a></li>
+<li><a href="../midi/metal.html"><img alt="メタル・ハードコア" height="35" src="../images/m_md5_off.jpg" width="130"/></a></li>
+<li><a href="../midi/dark.html"><img alt="ダーク・ホラー" height="35" src="../images/m_md6_off.jpg" width="130"/></a></li>
+<li><a href="../midi/gag.html"><img alt="ギャグ・メルヘンMIDI" height="35" src="../images/m_md7_off.jpg" width="130"/></a></li>
+<li><a href="../midi/punk.html"><img alt="パンク・メロコア" height="35" src="../images/m_md8_off.jpg" width="130"/></a></li>
+<li><a href="../midi/ska.html"><img alt="スカ・スカコア" height="35" src="../images/m_md9_off.jpg" width="130"/></a></li>
+<li><a href="../midi/orchestra.html"><img alt="ポップオーケストラMIDI" height="35" src="../images/m_md10_off.jpg" width="130"/></a></li>
+<li><a href="../midi/mb.html"><img alt="オルゴール" height="35" src="../images/m_md11_off.jpg" width="130"/></a></li>
+<li><a href="../midi/loop.html"><img alt="ループ" height="35" src="../images/m_md12_off.jpg" width="130"/></a></li>
+<li><a href="../midi/jingle.html"><img alt="ジングル" height="35" src="../images/m_md13_off.jpg" width="130"/></a></li>
+</ul>
+</li>
+<li>
+<a href="../movie/index.html"><img alt="動画" height="35" src="../images/m_m4_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="#"><img alt="disco" height="35" src="../images/icon_diso_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li>
+<a href="../release/index.html"><img alt="新譜" height="35" src="../images/m_d1_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="../disco/index.html"><img alt="カタログ" height="35" src="../images/m_d2_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="../sell/index.html"><img alt="注文" height="35" src="../images/m_d3_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="http://rengokublog.blog.fc2.com/" target="_blank"><img alt="blog" height="35" src="../images/icon_blog_off.jpg" width="130"/></a></li>
+<li><a href="#"><img alt="contact" height="35" src="../images/icon_contact_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li>
+<a href="../rengokubbs/wforum.cgi"><img alt="掲示板" height="35" src="../images/m_c1_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="../privacy/index.html"><img alt="個人情報" height="35" src="../images/m_c2_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="../sitemap.html"><img alt="サイトマップ" height="35" src="../images/m_c3_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="../mail/index.html"><img alt="お問い合わせ" height="35" src="../images/m_c4_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="../order/index.html"><img alt="order" height="35" src="../images/icon_order_off.jpg" width="130"/></a></li>
+</ul>
+</div>
+<div class="contents">
+<div class="title"><img alt="musicmaterial" height="37" src="../img/mate_material.png" width="780"/></div>
+<div class="music">
+<div class="music_left">
+<span class="redtext">MP3素材曲</span><br/>
+<a href="./pop.html">ポップス</a><br/>
+<a href="./rock.html">ロック・メタル</a><br/>
+<a href="./wafu.html">和風</a><br/>
+<a href="./punk.html">パンク・スカ</a><br/>
+<a href="./dark.html">ダーク・ミステリー</a><br/>
+<a href="./gag.html">ギャグ・メルヘン</a><br/>
+<a href="./cyber.html">サイバー</a><br/>
+<a href="./orchestra.html">ポップオーケストラ</a><br/>
+<a href="./healing.html">ヒーリング</a><br/>
+<a href="./minzoku.html">民族調</a><br/>
+<a href="./other.html">その他</a><br/>
+<a href="./cover.html">カヴァー</a><br/>
+<a href="./vocal.html">歌モノ</a><br/>
+<a href="./vocaloid.html">ボカロ</a><br/>
+<a href="./loop.html">ループ・ジングル</a><br/>
+<br/>
+<span class="redtext">MIDI素材曲</span><br/>
+<a href="../midi/pop.html">ポップス</a><br/>
+<a href="../midi/another.html">アナザーポップ</a><br/>
+<a href="../midi/wafu.html">ヘヴィー和風・デス和風</a><br/>
+<a href="../midi/rock.html">ロック・ハードロック</a><br/>
+<a href="../midi/metal.html">メタル・ハードコア</a><br/>
+<a href="../midi/dark.html">ダーク・ホラー</a><br/>
+<a href="../midi/gag.html">ギャグ・メルヘン</a><br/>
+<a href="../midi/punk.html">パンク・メロコア</a><br/>
+<a href="../midi/ska.html">スカ・スカコア</a><br/>
+<a href="../midi/orchestra.html">ポップオーケストラ</a><br/>
+<a href="../midi/mb.html">オルゴール</a><br/>
+<a href="../midi/loop.html">ループ</a><br/>
+<a href="../midi/jingle.html">ジングル</a><br/>
+<br/>
+<span class="redtext">動画素材曲</span><br/>
+<a href="../movie/index.html">動画一覧</a><br/></div>
+<div class="music_right">
+<div class="music_title">ロック・メタル /MP3</div>
+<div class="song_line"><img alt="redline" height="1" src="../img/redline.png" width="480"/></div>
+<!------------jplayer	1	------------------->
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>薄情連鎖</p>
+昔ある村にA君～Z君までいました。<br/>ある日、村に恐ろしい怪物が来ました。<br/>B君はA君を囮に、C君はB君を囮に…。<br/>最後に残ったZ君は言いました。<br/>Z君「この負のスパイラル…君ならどうする！？」<br/>私は答えました…どうもせぇへんわ。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/hakujo_rensa.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/hakujo_rensa.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>終わりに遺るもの</p>
+…遺骨…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/owari_ni_nokorumono.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/owari_ni_nokorumono.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>The Reaper, named Phoenix</p>
+オッス！オラ、フェニックス！ワクワクしてきたゾ！<br/>■作曲：CAE_Bkr■編曲：CAE_Bkr</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/the_reaper_named_phoenix.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/the_reaper_named_phoenix.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>The escapers fly into the sky</p>
+逃亡者「よし！空に逃げよう！」<br/>追跡者「いや空にって…丸見えチックやん」<br/>逃亡者「だからこそ敢えて！だよ！」<br/>追跡者「すこぶる意味分からんぞキミ！」<br/>■作曲：CAE_Bkr■編曲：CAE_Bkr</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/the_escapers_fly_into_the_sky.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/the_escapers_fly_into_the_sky.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>永久機関人間</p>
+ロボティック的な？いやロボテイスト的な？<br/>■作曲：Gu-dara■編曲：Gu-dara</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/eikyuu_kikan_ningen.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/eikyuu_kikan_ningen.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>焔-Homura-</p>
+燃やし尽くせば良いじゃない。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/homura.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/homura.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>壊れた人類</p>
+そしてパニックへ…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/kowareta_jinrui.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/kowareta_jinrui.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>ヤサグレ戦士魔女っ子カピルン（漢）</p>
+漢でありながら魔女っ子を語るフトドキモノ。<br/>変身シーンでは誰も求めてないのに服が破れる。<br/>そんな輩のテーマソングでありたい。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/majyocapi.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/majyocapi.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>涙絆-Ruki-</p>
+音屋FES【絆-Kizuna-】出展曲。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/ruki.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/ruki.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Dance in the sky</p>
+空で踊るのか！踊っちゃおうぜ！カモンベイビ～♪<br/>■作曲：CAE_Bkr■編曲：CAE_Bkr</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/dance_in_the_sky.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/dance_in_the_sky.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Fateful Encounter</p>
+音屋FES【絆-Kizuna-】プレ提供曲。<br/>■作曲：CAE_Bkr■編曲：CAE_Bkr</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/f_e.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/f_e.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Noir Memory</p>
+ク～ロい記憶がやってくるぅ～♪シ～ロに負けるなエイ・エイ・オー！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/noir_m.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/noir_m.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>BLOOD</p>
+血の色が赤ではなく紫だった人はナメック的なアレです。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/blood.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/blood.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Scream</p>
+本来は歌モノとして出す予定だった曲です。<br/>いつか必ずリベンジしたいと思いますｂ<br/>■作曲：煉獄小僧■編曲：煉獄庭園■ギター＆ベース：ノーザン・キラー</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/scream.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/scream.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>RUSTED BASH</p>
+勢い任せのロケンロォ～♪<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/rusted_bash.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/rusted_bash.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Rock 5th Chemistry</p>
+どういった化学反応なのか…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/r5c.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/r5c.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Cover Story</p>
+政府隠蔽のカヴァーストーリーｂ<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/cover_story.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/cover_story.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Heavy Slash Dimension</p>
+ディメっ子ケンちゃん大集合！（←？）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/hsd.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/hsd.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>きっと繰り返す</p>
+↓に同じくXmasBOX特典収録曲からのリメイク。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/kurikaesu.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/kurikaesu.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>JOKER</p>
+通常素材では公開してない曲ですが<br/>XmasBOXの特典CDに収録していた同名の曲を<br/>リメイクした代物です（リフ以外原型留めてません；）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/joker.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/joker.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Celluloid</p>
+上映しむぁ～す（妙）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/celluloid.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/celluloid.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>殺害エンターテイメント2nd</p>
+そんなエンタに用は無い…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/satugai-e2.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/satugai-e2.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>黒き明日、清き闇</p>
+狭いよ暗いよ怖いよーーーーー！！（絶叫）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/kurokiyo.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/kurokiyo.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>【Ｄ】</p>
+ABC【D】EFGHIJK…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/d.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/d.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>凍てつくRainy</p>
+奴「なぁ、凍てつくRainyとか格好良さ毛に言ってるケド<br/>　　ブッ込んだ話、アラレって事ちゃうん？」<br/>俺「………そっちの解釈でキタか…」<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/itetukurainy.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/itetukurainy.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>愉快なマーチでアイツと僕とソコの彼</p>
+普通にドコの彼やねんっちゅ～話やしな…。<br/>しかも「マーチ」ですらナッスィン♪<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/yukaina.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/yukaina.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>紅い鴉Ⅲ-セピアカラーの僕の今-</p>
+鴉シリーズ（紅）３作目でゲッチュ♪<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/akakara3.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/akakara3.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>紅蓮辣-Gurenratu-</p>
+誰かが「グレンモ」とかほざいてたけど「ラツ」よ「ラツ」！<br/>タイトル下にローマ字ってるじゃ～ん！頼むよマジで～！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/gurenratu.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/gurenratu.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>制裁来たりて</p>
+時を待つ…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/seisai.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/seisai.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>伸ばした手の先は…</p>
+エクレア、バナナ味！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/nobasita.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/nobasita.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>ハジマラナイバラード</p>
+いや、ソコは始まっとけよ…人として。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/ballad.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/ballad.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>灯り無き眼光</p>
+無気力なのだね？<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/akarinaki.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/akarinaki.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>地獄絵図-Zigoku Ezu-</p>
+特派員は見た！ガーン！（色反転）<br/>家政婦も見た！ガーン！（色反転）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/zigokuezu.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/zigokuezu.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Ice Rain</p>
+氷の雨か…ロマンチックと見せかけて<br/>刺さると存外痛い罠、血の海だね！ヒヒ♪<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/icerain.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/icerain.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>至心と位牌-Sisin To Ihai-</p>
+コレもすこぶる昔にあった曲を再製作系列。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/sisintoihai.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/sisintoihai.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Call Girl</p>
+エロいな…でも曲自体は決してエロくないよ！信じて！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/callgirl.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/callgirl.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Black Money</p>
+黒い金は裏ルートだよ裏ルート！！<br/>ハラグロな連中が笑いながら枚数かぞえてるよ！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/bm.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/bm.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>アヤツリの紅い糸</p>
+運命の紅い糸…貴方は信じますか！？<br/>結びますか！？蝶々結びしちゃいますか！？<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/ayaturi.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/ayaturi.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Dark a Liar</p>
+ダークアライアー、早口で言うと「だから嫌」<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/darkaliar.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/darkaliar.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>見えない何かに怯える夜-3rd Edition-</p>
+見え夜シリーズの３作目でゴワース！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/mnoy3.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/mnoy3.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>見えない何かに怯える夜-Super Short-</p>
+ハラショー！スパショー！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/mnoy_ss.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/mnoy_ss.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Chaos</p>
+チャオっす♪……とも読めなくはない！！（どうでも良い）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/chaos.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/chaos.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Outskirts</p>
+僕ミニスカートの方が好きなんですケド！<br/>（いや急にどないした！？君！！）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/outskirts.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/outskirts.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Junk Smash</p>
+スマーーーーーーーッシュ！！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/junk.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/junk.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>白銀の天空-Hakugin no Sora-</p>
+すこぶる昔に作った曲を作り直してみた系列。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/hakugin.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/hakugin.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Extension Psychology</p>
+何を思って「拡大心理学」？<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/expsy.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/expsy.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>DESIRE</p>
+DESIREって曲名とかに選ばれやすいよね。<br/>ィヨッ！この選ばれ上手！日本一！（選ばれ上手て）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/desire.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/desire.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>殺意の肖像</p>
+全然関係ないねんケドさぁ～。<br/>ショーゾーって言うと小学校ん時の同級生思い出すわ。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/satui.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/satui.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>桜華・白章-Ouka.Hakushou-</p>
+桜華シリーズの５作目でゴンス～♪<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/oukasiro.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/oukasiro.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Poison Magic</p>
+毒物反応の出そうなサウンドです（意味不明）<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/magic.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/magic.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Heat Haze</p>
+ヒートったら「熱」よねぇ？ヘイズって何？え…「もや」？<br/>………モヤって………熱モヤって……何？<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/h-haze.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/h-haze.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>DEAD〆5=2days</p>
+タイトル意味分からんがな、命名したのドコの馬の骨よ？<br/>……………俺かぁぁぁぁぁぁーーーー！！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/dead5.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/dead5.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>Swirl Explosion</p>
+何かアレよ…ヒーローが変身前とかに掛け声するセリフみたい。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/swirl.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/swirl.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>鉄鋼仮面の紳士達</p>
+社会に出ればそういう大人がゴロゴロしてるワケよ。<br/>気を付けて！どう気を付けるか知らんけども！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/t-kamen.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/t-kamen.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>見えない何かに怯える夜-2nd Edition-</p>
+見え夜シリーズの２作目でゴワースでゴワース。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/mnoy2.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/mnoy2.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>世界に捨てられた時代</p>
+…可哀想に…。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/jidai.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/jidai.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>廃人MR.doll</p>
+ミスタードールさんは廃人ですから引き篭もりです。<br/>ニートです…働けニート！！<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/haijin.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/haijin.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>桜華・紅屡裏-Ouka-Beniruri-</p>
+桜華シリーズの４作目でゴワース。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/ouka_beni.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/ouka_beni.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="song">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="songtext" rowspan="3">
+<p>神を破壊せよ</p>
+メロディアスハードロック系です。<br/>なかなか勢いがあります。<br/>■作曲：煉獄小僧■編曲：煉獄小僧</td>
+<td class="songicon2"><div class="sm2-inline-list" id="special-demo-left"><div class="ui360">
+<a class="norewrite exclude button-exclude inline-exclude" href="./rock/kamihakai.mp3">play</a>
+</div></div>
+</td>
+</tr>
+<tr>
+<td class="songicon"><a href="./rock/kamihakai.zip"><img alt="MP3ダウンロード" height="60" src="../images/dlmp3_off.png" width="60"/></a></td>
+</tr>
+</table>
+</div>
+<div class="totop"><a href="#header"><img alt="上へ" height="23" src="../img/totop.png" width="100"/></a></div>
+</div> </div>
+</div>
+<div class="footer_sub">
+                		Copyright c 2000-2013 煉獄庭園 All Rights Reserved.		
+                </div>
+</div>
+<div id="blackunder"></div>
+</body>
+</html>
