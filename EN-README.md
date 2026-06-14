@@ -1,3 +1,7 @@
+中文：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/README.md
+English：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/EN-README.md
+日本語：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/JP-README.md
+
 Static Mirror Archive
 
 This repository is an independent static mirror archive of the now-defunct website "Rengoku Teien" (煉獄庭園), intended solely for non-commercial historical preservation and personal study.

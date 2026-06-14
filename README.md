@@ -1,3 +1,7 @@
+中文：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/README.md
+English：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/EN-README.md
+日本語：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/JP-README.md
+
 静态镜像存档
 
 本仓库是对已关闭的网站“炼狱庭园”的独立静态镜像存档，仅供非商业用途的历史保存与个人学习使用。

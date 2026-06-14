@@ -1,3 +1,7 @@
+中文：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/README.md
+English：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/EN-README.md
+日本語：https://github.com/wulitian2-png/www.rengoku-teien.com/blob/main/JP-README.md
+
 静的ミラーアーカイブ
 
 本リポジトリは、現在閉鎖されたウェブサイト「煉獄庭園」の独立した静的ミラーアーカイブであり、非営利目的の歴史的保存及び個人学習のみを目的としています。
