@@ -1,0 +1,223 @@
+body{
+	background-image:url(../images/back.jpg);
+	margin:auto;
+	color:#FFFFFF;
+	font-size:12px;
+	line-height:15px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a: {text-decoration:none;}
+
+
+ul{ list-style: none; }
+
+.clear{clear:both;}
+
+img{
+	border:0;
+	border:none;
+}
+
+a:link{
+	color:#F00;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#F00;
+	text-decoration:underline;
+}
+
+a:visited{
+	color:#F00;
+	text-decoration:none;
+}
+
+#header{
+	width:900px;
+	height:90px;
+	padding:0;
+	margin:20px auto 5px auto;
+}
+
+#blackover{
+	width:950px;
+	height:20px;
+	background-repeat:no-repeat;
+	background-image:url(../images/black_over.png);
+	margin-bottom:0px;
+	padding-bottom:0px;
+	
+}
+
+#blackunder{
+	width:950px;
+	height:23px;
+	background-image:url(../images/black_under.png);
+	background-repeat:no-repeat;
+	margin-top:0px;
+	padding-top:0px;
+	margin:0 auto;
+}
+
+#main{
+	background-image:url(../images/black_back.png);
+	background-repeat:repeat-y;
+	width:950px;
+	margin:0 auto;
+}
+
+#main, #blackunder, #blackover{
+	margin:0 auto;
+	
+}
+
+h1{
+	margin:0;
+	padding:0;
+}
+
+.redtext{
+	color:#F00;
+}
+
+.redtext{
+	color:#F00;
+	padding-top:10px;
+}
+.logo{
+	float:left;
+	width:226px;
+	height:90px;
+	margin-left:10px;
+}
+
+.right{
+	float:right;
+	color:#666666;
+	margin-right:25px;
+	width:300px;
+	height:90px;
+	font-size:11px;
+	line-height:13px;
+	text-align:right;
+	margin-top:10px;
+}
+
+.footer{
+	clear:both;
+	width:780px;
+	margin:auto;
+	height:50px;
+	text-align:center;
+	font-size:11px;
+}
+
+.footer_link{
+	font-size:10px;
+	color:#F00;
+}
+
+.topbana{
+	margin:auto;
+	width:780px;
+	height:250px;
+	padding-top:15px;
+}
+
+.menu{
+	width:780px;
+	height:25px;
+	margin:0px auto 10px auto;
+	padding-top:10px;
+}
+
+
+.top_con{
+	width:780px;
+	margin:auto;
+	padding-top:10px;
+}
+
+.top_left{
+	margin-top:10px;
+	float:left;
+	width:462px;
+}
+
+.top_right{
+	width:305px;
+	float:left;
+	margin-left:12px;
+}
+
+.top_sp, .top_sp2{
+	width:460px;
+	font-size:11px;
+	line-height:13px;
+}
+
+.top_sp{
+	border:#000000 1px solid;
+}
+
+
+.top_sp h2{
+	margin:0;
+	padding:0px;
+}
+
+.sp_left{
+	float:left;
+	width:200px;
+	border:#000000 1px solid;
+}
+
+.sp_right{
+	float:right;
+	width:250px;
+	line-height:13px;
+}
+
+.top_select{
+	width:780px;
+	height:70px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.top_line{
+	clear:both;
+	width:462px;
+	margin-left:1px;
+	height:5px;
+	padding-top:10px;
+	margin-bottom:5px;
+}
+
+.top_mv{
+	clear:both;
+	width:462px;
+	margin-left:1px;
+	height:40px;
+	margin-bottom:10px;
+}
+
+
+.top_news{
+	width:285px;
+	height:400px;
+	margin-top:10px;
+	border:#FFFFFF solid 1px;
+	padding:10px;
+}
+
+.newscrollbar{ width: 280px;  margin-top:10px; }
+
+.movie{
+	padding:10px;
+	margin-left:-10px;
+}
+
+/*

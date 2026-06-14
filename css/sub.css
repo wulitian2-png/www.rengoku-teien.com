@@ -1,0 +1,344 @@
+.menu_sub{
+	width:780px;
+	height:35px;
+	padding-top:10px;
+	margin:0px auto 10px auto;
+}
+
+.menu_sec{
+	width:780px;
+	height:25px;
+	padding-top:5px;
+	margin:0px auto 10px auto;
+}
+
+.contents{
+	width:780px;
+	margin:5px auto 5px auto;
+}
+
+.title{
+	width:780px;
+	height:37px;
+	margin-bottom:5px;
+	margin-top:15px;
+}
+
+.footer_sub{
+	clear:both;
+	padding-top:25px;
+	width:780px;
+	margin:auto;
+	height:20px;
+	text-align:center;
+	font-size:11px;
+}
+
+.member{
+	width:780px;
+}
+
+.profile{
+	float: left;
+	width:111px;
+	height:258px;
+}
+
+
+
+
+.rec{
+	width:780px;
+	margin:5px auto 10px auto;
+	font-size:11px;
+	text-align:14px;
+}
+
+.rec_l{
+	width:240px;
+	float:left;
+}
+
+.rec_r{
+	width:480px;
+	float:right;
+}
+	
+	
+.overline{
+	padding:25px 0 15px 0;
+	width:780px;
+	clear:both;
+	height:5px;
+}
+
+
+.form{
+	width:780px;
+	height:200px;
+	padding-top:10px;
+}
+
+.formtitle{
+	width:780px;
+	height:45px;
+	margin-bottom:10px;
+}
+
+.form_left{
+	font-size:12px;
+	text-align:15px;
+	width:150px;
+	height:25px;
+	text-align:right;
+	padding-right:10px;
+}
+
+
+.form_right{
+	width:200px;
+	height:25px;
+}
+
+
+.form_box{
+	width:250px;
+}
+
+.link{
+	width:330px;
+	font:11px;
+	text-align:15px;
+}
+
+.linkbana{
+	width:350px;
+	padding-bottom:15px;
+}
+
+.newrelease{
+	height:500px;
+	text-align:center;
+	width:780px;
+	margin:20px auto;
+}
+
+.catalogue{
+	width:790px;
+	margin-left:-11px;
+}
+
+.cat_icon{
+	width:120px;
+	float:left;
+	height:120px;
+	margin-left:11px;
+	margin-bottom:12px;
+}
+	
+.sm{
+	width:210px;
+	margin-right:45px;
+	float:left;
+	border-right:1px #FFFFFF solid;
+}
+
+.sm a:link{color:#FFF;}
+.sm a:hover{color:#FFF;}
+.sm a:visited{color:#FFF;}
+	
+.music{
+	width:780px;
+	margin:auto;
+	font-size:11px;
+	text-align:left;
+	line-height:14px;
+}
+
+.music_left{
+	width:209px;
+	margin-right:45px;
+	
+	float:left;
+}
+
+.music_left a:link{color:#FFF;}
+.music_left a:hover{color:#FFF;}
+.music_left a:visited{color:#FFF;}
+
+.music_right, .music_right2{
+	width:480px;
+	padding-left:45px;
+	float:right;
+	border-left:1px #FFFFFF solid;
+}
+
+.music_title, .music_kiyaku{
+	width:480px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	color:#FF0000;
+}
+
+.music_title{	height:30px;	font-size:24px;}
+.music_kiyaku{	height:21px;	font-size:19px; }
+
+.music_text, .music_text2{width:480px; padding-bottom:20px;}
+.music_text2{ padding-bottom:20px;}
+.song, .song2, .song3{width:480px; padding-bottom:20px; margin-bottom:20px; border-bottom:1px #FF0000 solid; margin-top:5px; clear:both; }
+.music_right2 .song{width:480px; padding-bottom:15px; padding-top:20px; clear:both;}
+
+.song_title, .song_title2{
+	color:#FF0000;
+	font-size:16px;
+	line-height:18px;
+	width:260px;
+	float:left;
+}
+
+.song_title2{height:50px;}
+
+
+.song, .song2, .song3{
+	clear:both:
+}
+
+.song2 .song_title, .song2 .song_title2{
+	font-size:13px;
+	line-height:16px;
+}
+
+.song3 .song_title{
+	font-size:13px;
+	line-height:16px;
+}
+
+.song3 .song_title2{
+	font-size:11px;
+	line-height:15px;
+}
+
+.song2 .dl2{
+	padding-top:15px;
+	margin-bottom:5px;
+}
+
+.song3 .dl2{
+	padding-top:30px;
+	margin-bottom:5px;
+}
+
+.dl{
+	text-align:right;
+	width:220px;
+	float:right;
+	height:30px;
+	margin-bottom:5px;
+}
+
+.dl2{
+	text-align:right;
+	width:220px;
+	float:right;
+	height:30px;
+	padding-top:0px;
+	margin-bottom:10px;
+}
+
+
+
+.song_line{
+	width:480px;
+	clear:both;
+	height:10px;
+	padding:5px auto 15px auto;
+}
+
+.song_line2{
+	width:480px;
+	clear:both;
+	height:20px;
+	padding:5px auto 25px auto;
+}
+
+.song_text{
+	font-size:10px;
+	width:480px;
+	padding-top:5px;
+}
+
+.player{
+	padding-top:10px;
+	padding-bottom:15px;}
+	
+	.song_text2{
+	font-size:10px;
+	width:240px;
+	float:left;
+	padding-top:5px;
+	padding-bottom:20px
+	
+}
+
+.player2{
+	padding-top:5px;
+	line-height:15px;
+	width:220px;
+	float:right;
+	padding-bottom:30px;}
+	
+     
+player a:{
+	text-decoration:none;
+}
+
+.submit{
+	text-align:center;
+	margin:auto;
+}
+
+.formtext{
+	padding-bottom:5px;
+	font-size:13px;
+}
+
+.formtext2{
+	padding-bottom:20px;
+	font-size:21px;
+}
+
+.next{
+	clear:both;
+	padding-top:15px;
+	text-align:center;
+	font-size:14px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.here{
+	font-size:20px;
+}
+
+.totop{
+	width:480px;
+	text-align:right;
+	height:40px;
+	margin:0;
+	padding-bottom:15px;
+}
+
+.songtext{ width:400px; padding-right:40px; font-size:12px; line-height:16px; vertical-align:top;}
+.songtext2{ width:400px;font-size:12px; line-height:16px; vertical-align:top; padding-bottom:10px;}
+.songicon, .songicon2, .songicon4{width:60px; vertical-align:top; height:65px; text-align:right;}
+.songicon3{width:60px; vertical-align:top; height:65px;  text-align:right; }
+tr.songicon0{  padding-top:15px; height:70px;}
+.songicon4{ margin-left:0px; text-align:left;}
+.songicon2, .songicon3{ background: url(../images/player.png) no-repeat;}
+.songtext p{ font-size:16px; line-height:21px; margin:0px 0px 10px 0px; color:#FF0000;} 
+
+#sm2-container{ width:0px; height:0px; margin:0px; padding:0px;}
+.players{ margin:10px 0 0 0;}
+.players2{
+	padding-top:5px;
+	line-height:15px;
+	width:400px;
+	padding-bottom:30px;}

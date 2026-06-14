@@ -1,0 +1,188 @@
+#members{
+	line-height:14px;
+	width:780px;
+	height:290px;
+	padding:10px;
+	color:#000000;
+	background-color:#231815;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.mem_left{
+	float:left;
+	width:190px;
+	height:240px;
+}
+
+.mem_right{
+	margin-top:5px;
+	font-size:11px;
+	float:right;
+	width:570px;
+	height:240px;
+}
+
+.mem_name{
+	font-size:24px;
+	height:30px;
+	color:#FF0000;
+}
+
+.mem_text{
+	text-align:justify;
+	height:150px;
+	width:560px;
+}
+	
+.mem_favorite{
+	width:560px;
+	height:20px;
+	color:#F00;
+}
+
+.mem_white{
+	color:#FFFFFF;
+}
+
+.mem_favorite_text{
+	width:560px;
+	padding-top:5px;
+	height:18px;
+	
+	border-top:#FFFFFF 1px solid;
+}
+
+.mem_close{
+	width:800px;
+	text-align:center;
+	margin:10px auto;
+	height:35px;
+	clear:both;
+}
+
+.memberpart{
+	color:#FFFFFF;
+	font-size:17px;
+}
+
+div#modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index:300;
+}
+div#modal div.background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	-ms-filter: "alpha(opacity=75)";
+}
+div#modal div.container {
+	position: relative;
+	background-color:#000000;
+	width: 800px;
+	height: 310px;
+	background-color: #000000;
+	border:#FFFFFF 1px solid;
+}
+
+
+
+#lean_overlay{
+  position: fixed; z-index:100; 
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  display: none;
+}
+#ill, #sixth, #death, #etarnity_limited, #etarnity, #best_soft, #best_heavy, #kamiakari, #kamiakari2, #red, #rin, #ennetsu, #ryusan, #gion, #rko, #dokugan, #beat, #mukuro, #vivid, #xi, #kokubetsu, #knife, #past, #onkaiki, #sora, #drive, #mumaikage, #setsugetuka, #rook, #frustration, #gimebara, #blood, #zero{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  display: none;
+  line-height:14px;
+	width:800px;
+	height:350px;
+	padding:10px;
+	color:#FFF;
+	background-color:#231815;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+ }
+.modal_close{ 
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block; 
+  width: 14px;
+  height: 14px; 
+  background: url(../img/modal_close.png);
+  z-index: 2;
+}
+
+
+
+	
+
+.cd_list{
+	margin:15px;
+	width:575px;
+	height:365px;
+}
+
+.cd_photo{
+	width:120px;
+	height:320px;
+	float:left;
+}
+
+.cd_text, .cd_text_a, .cd_text_b{
+	font-size:10px;
+	text-align:13px;
+	
+	height:320px;
+	color:#000000;
+	float:left;
+}
+.cd_main2 .cd_text{ width:290px; margin-left:10px;}
+.cd_main .cd_text{ width:440px; margin-left:10px;}
+.cd_text_a{ width:215px;}
+.cd_text_b{ width:215px; margin-left:10px;}
+
+.cd_close{
+	width:575px;
+	text-align:center;
+	padding-top:10px;
+	margin: 20px auto;
+	height:35px;
+	clear:both;
+}
+
+.cd_title{
+	font-size:14px;
+}
+
+.cd_main{
+	height:400px;
+	width:650px;
+	padding:15px;
+	background-color: #FFFFFF;
+	border:#FFFFFF 1px solid:
+}
+
+.cd_main2{
+	height:400px;
+	width:600px;
+	margin:0 75px;
+	padding:15px;
+	background-color: #FFFFFF;
+	border:#FFFFFF 1px solid:
+}
+
+
+
+	

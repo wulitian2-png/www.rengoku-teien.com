@@ -1,0 +1,129 @@
+#members{
+	line-height:14px;
+	width:780px;
+	height:320px;
+	padding:10px;
+	color:#000000;
+	background-color:#231815;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.mem_left{
+	float:left;
+	width:190px;
+	height:240px;
+}
+
+.mem_right{
+	margin-top:5px;
+	font-size:11px;
+	float:right;
+	width:570px;
+	height:260px;
+}
+
+.mem_name{
+	font-size:24px;
+	height:30px;
+	color:#FF0000;
+}
+
+.mem_text{
+	text-align:justify;
+	height:150px;
+	width:560px;
+}
+	
+.mem_favorite{
+	width:560px;
+	height:20px;
+	color:#F00;
+}
+
+.mem_white{
+	color:#FFFFFF;
+}
+
+.mem_favorite_text{
+	width:560px;
+	padding-top:5px;
+	height:18px;
+	
+	border-top:#FFFFFF 1px solid;
+}
+
+.mem_close{
+	width:800px;
+	text-align:center;
+	margin:10px auto;
+	height:35px;
+	clear:both;
+}
+
+.memberpart{
+	color:#FFFFFF;
+	font-size:17px;
+}
+
+div#modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index:300;
+}
+div#modal div.background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	-ms-filter: "alpha(opacity=75)";
+}
+div#modal div.container {
+	position: relative;
+	background-color:#000000;
+	width: 800px;
+	height: 340px;
+	background-color: #000000;
+	border:#FFFFFF 1px solid;
+}
+
+
+
+#lean_overlay{
+  position: fixed; z-index:100; 
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  display: none;
+}
+#kozo, #nk, #uta, #irima, #mieu, #sasanata, #cae, #mana, #gudara, #kuro, #aoi, #ery{
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  display: none;
+  line-height:14px;
+	width:780px;
+	height:340px;
+	padding:10px;
+	color:#FFF;
+	background-color:#231815;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+ }
+.modal_close{ 
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: block; 
+  width: 14px;
+  height: 14px; 
+  background: url(../img/modal_close.png);
+  z-index: 2;
+}
+
+
+
+	
