@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=8" http-equiv="X-UA-Compatible"/>
+<meta content="音楽素材,無料,フリー" name="keywords"/>
+<meta content="無料音楽素材を煉獄庭園は1000曲以上のオリジナル楽曲を提供しております。あらゆるジャンルを揃えており、ゲーム、動画、ラジオ、舞台、店舗、バンド、ホームページなどの、多分野で御利用可能でございます。作曲依頼も随時募集中ですので、お気軽にお問い合わせ下さいませ。" name="description"/>
+<title>無料音楽素材 煉獄庭園</title>
+<script src="./js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="./js/jquery.mousewheel.js" type="text/javascript"></script>
+<script src="./js/jscrollpane.js" type="text/javascript"></script>
+<link href="./js/jscrollpane.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+    $(function() {
+        $("#news").jScrollPane();
+    });
+
+</script>
+<link href="./js/ddsmoothmenu.css" rel="stylesheet" type="text/css"/>
+<script src="./js/ddsmoothmenu.js" type="text/javascript"></script>
+<script type="text/javascript">
+ddsmoothmenu.init({
+    mainmenuid: "dropmenu", //menu DIV id
+    orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+    classname: 'menu', //class added to menu's outer DIV
+    contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+</script>
+<script type="text/javascript">
+$(function() {
+	var images = $("img");
+	for(var i=0; i < images.size(); i++) {
+		if(images.eq(i).attr("src").match("_off.")) {
+			$("img").eq(i).hover(function() {
+				$(this).attr('src', $(this).attr("src").replace("_off.", "_on."));
+			}, function() {
+				$(this).attr('src', $(this).attr("src").replace("_on.", "_off."));
+			});
+		}
+	}
+});
+</script>
+<script src="./js/jquery.mb.mediaEmbedder.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+        $.mb_audioEmbedder.playerPath="media/player.swf" //the path to audio player
+        $.mb_videoEmbedder.defaults.width=307; //the with of players --> the height is automatically calculated
+        $('#movie').mb_embedMovies()
+        $('#movie').mb_mb_embedAudio({})
+
+    });
+    </script>
+<link href="./css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header">
+<div class="logo"><h1><a href="./index.html"><img alt="無料音楽素材煉獄庭園" height="89" src="./images/logo.png" width="226"/></a></h1></div>
+<div class="right">
+<div class="sns">
+<img alt="twitter" height="23" src="./images/twitter.png" width="62"/>
+<img alt="facebook" height="23" src="./images/facebook.jpg" width="60"/></div>
+<div class="head_text">
+ゲーム、ＨＰ、動画、ラジオ、舞台、店舗等様々な用途に<br/>
+御利用頂ける無料音楽素材サイト。製作依頼も随時募集。</div>
+<div class="search">
+<form action="http://www.google.com/search" method="get">
+<input name="hl" type="hidden" value="ja"/>
+<input name="as_sitesearch" type="hidden" value="サイトのURL"/>
+<input class="text" name="q" size="16" type="text" value=""/>
+<input class="button" type="submit" value="Googleでサイト内検索"/>
+</form>
+</div>
+</div>
+</div>
+<div id="blackover"></div>
+<div id="main">
+<div class="topbana"><img alt="音楽配信中" height="250" src="./images/top_head.jpg" width="780"/></div>
+<div class="menu" id="dropmenu">
+<ul class="dropdown"><li><a href="#"><img alt="about" height="35" src="./images/icon_about_off.jpg" width="130"/></a><ul class="sub_menu">
+<li><a href="./about/index.html"><img alt="メンバー紹介" height="35" src="./images/m_a1_off.jpg" width="131"/></a></li><li><a href="./kanyu/index.html"><img alt="加入ふぉーむ" height="35" src="./images/m_a2_off.jpg" width="131"/></a></li><li><a href="./link/index.html"><img alt="リンク" height="35" src="./images/m_a3_off.jpg" width="131"/></a></li></ul></li>
+<li><a href="#"><img alt="musicmaterial" height="35" src="./images/icon_music_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li><a href="./rule/index.html"><img alt="利用規約" height="35" src="./images/m_m1_off.jpg" width="130"/></a></li>
+<li>
+<a href="#"><img alt="MP3素材" height="35" src="./images/m_m2_off.jpg" width="130"/></a>
+<ul>
+<li><a href="./mp3/pop.html"><img alt="ポップス" height="35" src="./images/m_mp1_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/rock.html"><img alt="ロック・メタル" height="35" src="./images/m_mp2_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/wafu.html"><img alt="和風" height="35" src="./images/m_mp3_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/punk.html"><img alt="パンク・スカ" height="35" src="./images/m_mp4_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/dark.html"><img alt="ダーク・ミステリー" height="35" src="./images/m_mp5_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/gag.html"><img alt="ギャグ・メルヘンt" height="35" src="./images/m_mp6_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/cyber.html"><img alt="サイバー" height="35" src="./images/m_mp7_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/orchestra.html"><img alt="ポップオーケストラ" height="35" src="./images/m_mp8_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/healing.html"><img alt="ヒーリング" height="35" src="./images/m_mp9_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/minzoku.html"><img alt="民族調" height="35" src="./images/m_mp10_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/other.html"><img alt="その他" height="35" src="./images/m_mp11_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/cover.html"><img alt="カヴァー" height="35" src="./images/m_mp12_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/vocal.html"><img alt="歌モノ" height="35" src="./images/m_mp13_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/vocaloid.html"><img alt="ボカロ" height="35" src="./images/m_mp14_off.jpg" width="130"/></a></li>
+<li><a href="./mp3/loop.html"><img alt="ループ・ジングル" height="35" src="./images/m_mp15_off.jpg" width="130"/></a></li>
+</ul>
+</li>
+<li>
+<a href="#"><img alt="MIDI音源" height="35" src="./images/m_m3_off.jpg" width="130"/></a>
+<ul>
+<li><a href="./midi/pop.html"><img alt="ポップスMIDI" height="35" src="./images/m_md1_off.jpg" width="130"/></a></li>
+<li><a href="./midi/another.html"><img alt="アナザーポップ" height="35" src="./images/m_md2_off.jpg" width="130"/></a></li>
+<li><a href="./midi/wafu.html"><img alt="ヘヴィー和風・デス和風" height="35" src="./images/m_md3_off.jpg" width="130"/></a></li>
+<li><a href="./midi/rock.html"><img alt="ロック・ハードロック" height="35" src="./images/m_md4_off.jpg" width="130"/></a></li>
+<li><a href="./midi/metal.html"><img alt="メタル・ハードコア" height="35" src="./images/m_md5_off.jpg" width="130"/></a></li>
+<li><a href="./midi/dark.html"><img alt="ダーク・ホラー" height="35" src="./images/m_md6_off.jpg" width="130"/></a></li>
+<li><a href="./midi/gag.html"><img alt="ギャグ・メルヘンMIDI" height="35" src="./images/m_md7_off.jpg" width="130"/></a></li>
+<li><a href="./midi/punk.html"><img alt="パンク・メロコア" height="35" src="./images/m_md8_off.jpg" width="130"/></a></li>
+<li><a href="./midi/ska.html"><img alt="スカ・スカコア" height="35" src="./images/m_md9_off.jpg" width="130"/></a></li>
+<li><a href="./midi/orchestra.html"><img alt="ポップオーケストラMIDI" height="35" src="./images/m_md10_off.jpg" width="130"/></a></li>
+<li><a href="./midi/mb.html"><img alt="オルゴール" height="35" src="./images/m_md11_off.jpg" width="130"/></a></li>
+<li><a href="./midi/loop.html"><img alt="ループ" height="35" src="./images/m_md12_off.jpg" width="130"/></a></li>
+<li><a href="./midi/jingle.html"><img alt="ジングル" height="35" src="./images/m_md13_off.jpg" width="130"/></a></li>
+</ul>
+</li>
+<li>
+<a href="./movie/index.html"><img alt="動画" height="35" src="./images/m_m4_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="#"><img alt="disco" height="35" src="./images/icon_diso_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li>
+<a href="./release/index.html"><img alt="新譜" height="35" src="./images/m_d1_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="./disco/index.html"><img alt="カタログ" height="35" src="./images/m_d2_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="./sell/index.html"><img alt="注文" height="35" src="./images/m_d3_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="http://rengokublog.blog.fc2.com/" target="_blank"><img alt="blog" height="35" src="./images/icon_blog_off.jpg" width="130"/></a></li>
+<li><a href="#"><img alt="contact" height="35" src="./images/icon_contact_off.jpg" width="130"/></a>
+<ul class="sub_menu">
+<li>
+<a href="./rengokubbs/wforum.cgi"><img alt="掲示板" height="35" src="./images/m_c1_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="./privacy/index.html"><img alt="個人情報" height="35" src="./images/m_c2_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="./sitemap.html"><img alt="サイトマップ" height="35" src="./images/m_c3_off.jpg" width="130"/></a>
+</li>
+<li>
+<a href="./mail/index.html"><img alt="メールフォーム" height="35" src="./images/m_c4_off.jpg" width="130"/></a>
+</li>
+</ul>
+</li>
+<li><a href="./order/index.html"><img alt="order" height="35" src="./images/icon_order_off.jpg" width="130"/></a></li>
+</ul>
+</div>
+<div class="top_con">
+<div class="top_left">
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+<div class="top_sp">
+<h2><a href="./zoom/index.html"><img alt="煉獄ZooM" height="115" src="./images/top_zoom.jpg" width="460"/></a></h2></div>
+<div class="top_select"> <a href="./rule/index.html"><img alt="音楽素材" height="70" src="./images/sub_material_off.jpg" width="76"/></a><a href="./movie/index.html"><img alt="映像集" height="70" src="./images/sub_movie_off.jpg" width="76"/></a><a href="./zoom/index.html"><img alt="ラジオ" height="70" src="./images/sub_radio_off.jpg" width="76"/></a><a href="./disco/index.html"><img alt="CD" height="70" src="./images/sub_disc_off.jpg" width="76"/></a><a href="./order/index.html"><img alt="制作依頼" height="70" src="./images/sub_ofer_off.jpg" width="76"/></a><a href="./kanyu/index.html"><img alt="加入要項" height="71" src="./images/sub_join_off.jpg" width="76"/></a></div>
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+<div class="top_sp"><a href="http://cyber-rainforce.net/otoyafes/" target="_blank"><img alt="音屋遊" height="92" src="./images/top_fes400.jpg" width="460"/></a></div>
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+<div class="top_sp2">
+<div class="sp_left"><a href="http://clione.halfmoon.jp/hatoful-boyfriend/" target="_blank"><img alt="はーとふる彼氏" height="40" src="./images/top_hato.gif" width="200"/></a></div>
+<div class="sp_right">
+原作となるゲームとフロンティアワークスさんより発売中のドラマCDで煉獄庭園の楽曲も使っていただいてます。有難う御座います。</div>
+</div>
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+<div class="top_sp"><a href="http://www.senses-circuit.com/otoyafes/" target="_blank"><img alt="音屋祭" height="66" src="./images/top_fes_m.jpg" width="460"/></a></div>
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+<div class="top_sp"><a href="./otoyafes/index.html" target="_blank"><img alt="音屋絆" height="115" src="./images/top_fes_k.jpg" width="460"/></a></div>
+<div class="top_line"><img alt="line" height="1" src="./images/line.jpg" width="460"/></div>
+</div>
+</div>
+<div class="top_right">
+<div class="movie" id="movie">                					         
+[youtube=http://www.youtube.com/watch?v=gWBdTUqMAzA]              
+</div>
+<div class="top_news" id="news">
+<img alt="information" height="18" src="./images/info.jpg" width="254"/>
+<div class="newscrollbar">
+
+４月２４日のM3「あ-16a」にてmozellサンのアレンジコンピ
+「もぜコン２」がリリース！前作に続き煉獄小僧も参加を
+させていただいております。後日通販開始もされます。
+是非皆さん聞いてみて下さい。<br/>
+<a href="http://mozeen.com/cd_mozecon2.htm" target="_blank">もぜコン２のページ</a><br/>
+<br/>
+（８月８日）<br/>
+ 煉獄ZooM第36回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.36</a>（ゲスト：ブロガー作曲家/こおろぎ様）<br/>
+<br/>
+（６月１３日）<br/>
+ 煉獄ZooM第35回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.35</a>（ゲスト：作編曲家/スキャット後藤様）<br/>
+<br/>
+ （５月９日）<br/>
+ 煉獄ZooM第34回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.34</a>（ゲスト：株式会社DimensionCruise/和田貴史様）<br/>
+<br/>
+（３月１５日）<br/>
+ 煉獄ZooM第33回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.33</a>（ゲスト：株式会社タイトー/土屋昇平様）<br/>
+<br/>
+（２月１４日）<br/>
+ 煉獄ZooM第32回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.32</a>（ゲスト：株式会社ATTIC INC./中條謙自様）<br/>
+<br/>
+ （１２月３１日）<br/>
+mp3素材に新曲15曲追加。<br/>
+<a href="./mp3/pop.html">【ポップス】</a><br/>
+・AM WHITE<br/>
+・夢灯-YumeAkari-<br/>
+・金色の故郷<br/>
+<a href="./mp3/rock.html">【ロック】</a><br/>
+・薄情連鎖<br/>
+・終わりに遺るもの<br/>
+<a href="./mp3/dark.html">【ダーク】</a><br/>
+・繰り返される悲劇<br/>
+・黄泉-Yomi-<br/>
+<a href="./mp3/orchestra.html">【ポップオーケストラ】</a><br/>
+・決戦の朝<br/>
+<a href="./mp3/healing.html">【ヒーリング】</a><br/>
+・天導-Tendoh-<br/>
+<a href="./mp3/other.html">【その他】</a><br/>
+・Conflict<br/>
+<a href="./mp3/loop.html">【ループ】</a><br/>
+・朝の木漏れ日<br/>
+・シヴィルゲッツィアの森<br/>
+・Green Rain<br/>
+・失くした未来<br/>
+・Ready<br/>
+<br/>
+（１２月１３日）<br/>
+ 煉獄ZooM第31回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.31</a>（ゲスト：株式会社TEMPEST STUDIO/稲毛謙介様）<br/>
+<br/>
+ （１１月９日）<br/>
+ 煉獄ZooM第30回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.30</a>（ゲスト：ジェムドロップ株式会社/北尾雄一郎様）<br/>
+<br/>
+Mozellサン主催の企画「もぜコン」に煉獄小僧も<br/>
+僭越ながら参加させていただいております。<br/>
+2014M3秋10月26日「あ 06b」にてリリース！<br/>
+<a href="http://mozeen.com/cd_mozecon.htm" target="_blank">もぜコンのページ</a><br/>
+<br/>
+（１０月１１日）<br/>
+ 煉獄ZooM第29回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.29</a>（ゲスト：unity technologies japan合同会社/大前広樹様）<br/>
+<br/>
+（９月１３日）<br/>
+ 煉獄ZooM第28回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.28</a>（ゲスト：D.N.A.SoftWares/D.N.A.様）<br/>
+<br/>
+（７月１３日）<br/>
+ 煉獄ZooM第27回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.27</a>（ゲスト：復旧アネデパミ/にしかわ様）<br/>
+<br/>
+（６月１４日）<br/>
+ 煉獄ZooM第26回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.26</a>（ゲスト：ですのや☆/ですNO様）<br/>
+<br/>
+ （４月１２日）<br/>
+ 煉獄ZooM第25回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.25</a>（ゲスト：クロスロッジ/ウェレイ様）<br/>
+<br/>
+（３月８日）<br/>
+ 煉獄ZooM第24回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.24</a>（ゲスト：Honey Label/515M様）<br/>
+<br/>
+ （２月８日）<br/>
+ 煉獄ZooM第23回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.23</a>（ゲスト：灰色Logic/六歌様）<br/>
+<br/>
+ （１２月１４日）<br/>
+ 煉獄ZooM第22回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.22</a>（ゲスト：世の漆黒/胡桃坂 庵様）<br/>
+<br/>
+  （１１月９日）<br/>
+ 煉獄ZooM第21回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.21</a><br/>
+ （ゲスト：さくらソルフェヰジュ/しゅり様、るな様）<br/>
+<br/>
+  （９月１４日）<br/>
+ 煉獄ZooM第20回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.20</a>（ゲスト：Eine Kleine/朔夜様）<br/>
+<br/>
+ （８月１１日）<br/>
+ 煉獄ZooM第19回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.19</a><br/>
+ （ゲスト：Ether/Ryo様＆マリィロココ/久遠ゆん様）<br/>
+<br/>
+ （７月１３日）<br/>
+ 煉獄ZooM第18回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.18</a>（ゲスト：Resonecia/音冶様）<br/>
+<br/>
+ （６月８日）<br/>
+ 煉獄ZooM第17回公開。<br/>
+<a href="./zoom/index.html">煉獄ZooM No.17</a>（ゲスト：Queen of Wand/小狐丸様）<br/>
+<br/>
+ （１月１２日）<br/>
+mp3素材に新曲１曲追加致しました。<br/>
+【mp3和風】<br/>
+・五月雨Vivaride<br/>
+<br/>
+（１月６日）<br/>
+新年明けましておめでとう御座います。<br/>
+今年も煉獄庭園を宜しくお願い致します。<br/>
+mp3素材に新曲３曲追加致しました。<br/>
+【mp3ギャグ・メルヘン】<br/>
+・森の果実は恐ろすぃ～♪Ⅵ<br/>
+【mp3サイバー】<br/>
+・The Reaper, named Phoenix(GD Remix)<br/>
+【mp3歌モノ】<br/>
+・Let's tie the hand(GD Electro Mix)<br/>
+<br/>
+（１２月３１日）<br/>
+mp3素材に新曲１曲追加致しました。<br/>
+【mp3ポップス】<br/>
+・左利き心理学<br/>
+2011年も沢山の方々に素材曲を使って頂きました。<br/>
+本当に有難う御座いました！<br/>
+来年も是非、煉獄庭園を宜しくお願い致します。<br/>
+皆様、よいお年をお迎え下さい。<br/>
+<br/>
+（１２月４日）
+新メンバーにベース担当加入。<br/>
+サークルメンバーページ更新。<br/>
+<br/>
+（１１月２２日）
+mp3素材に以下の新曲１曲追加致しました。<br/>
+【mp3ヒーリング】<br/>
+・ひとりぼっちの雨上がり<br/>
+<br/>
+（１１月１９日）
+mp3素材に以下の新曲１５曲追加致しました。<br/>
+【mp3ロック・メタル】<br/>
+・The Reaper, named Phoenix<br/>
+・The escapers fly into the sky<br/>
+・永久機関人間<br/>
+【mp3サイバー】<br/>
+・bewilder      <br/>
+</div>
+</div> </div>
+<div class="footer">
+<span class="footer_link"><a href="http://cyber-rainforce.net/" target="_blank">3104式</a> / <a href="http://www.yen-soft.com/ssse/" target="_blank">On-Jin ～音人～</a> / <a href="http://www.yumemiduki.jp/" target="_blank">音楽工房 夢見月</a> / <a href="http://rulin.iza-yoi.net/top.html" target="_blank">Rulin</a> / <a href="http://oups.o0o0.jp/" target="_blank">OUpS.zero</a> / <a href="http://agnello-pecora.chu.jp/CAMeLIA/index.html" target="_blank">*CAMeLIA*</a> / <a href="http://pmelo.jp/" target="_blank">P-Melo.jp</a> /<a href="http://conte-de-fees.com/" target="_blank">こんとどぅふぇ</a> / <a href="http://ficusel.com/" target="_blank">FICUSEL</a> / <a href="http://maoudamashii.jokersounds.com/" target="_blank">魔王魂</a> /<br/>
+<a href="http://graveofmusic.garyoutensei.com/" target="_blank">Grave of Music</a> / <a href="http://www.senses-circuit.com/" target="_blank">Senses Circuit</a> / <a href="http://www.hmix.net/" target="_blank">H/MIX GALLERY</a> / <a href="http://www.tam-music.com/" target="_blank">TAM Music Factory</a> /  <a href="http://d-symphony.nsf.jp/" target="_blank">龍的交響楽</a> / <a href="http://musicmaterial.jpn.org/index.htm" target="_blank">MusicMaterial</a> / <a href="http://page.freett.com/verticalwaka/index.htm" target="_blank">VERTICAL DRIVE XX</a></span><br/>
+                		Copyright c 2000-2013 煉獄庭園 All Rights Reserved.		
+                </div>
+</div>
+<div id="blackunder"></div>
+<!--shinobi1-->
+<script src="http://x6.makibishi.jp/ufo/052998900" type="text/javascript"></script>
+<noscript><a href="http://x6.makibishi.jp/bin/gg?052998900" target="_blank">
+<img border="0" src="http://x6.makibishi.jp/bin/ll?052998900"/></a><br/>
+<span style="font-size:9px"><img height="11" src="http://img.shinobi.jp/tadaima/fj.gif" style="margin:0;vertical-align:text-bottom;" width="19"/> <a href="http://www.self-ltv.net/" target="_blank">心配事</a></span></noscript>
+<!--shinobi2-->
+</body>
+</html>
